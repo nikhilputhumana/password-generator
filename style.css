@@ -1,0 +1,141 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./images/milad-fakurian-E8Ufcyxz514-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: linear-gradient(119.4deg, rgba(255, 255, 255, 0.4) 4.61%, rgba(255, 255, 255, 0.1) 93.99%);
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+}
+
+.head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+    mix-blend-mode: overlay;
+    text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.num {
+    width: 30%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+}
+
+.len {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    opacity: 80%;
+}
+
+.items {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.but {
+    background: rgba(128, 8, 220, 0.678);
+    border: 0.5px solid rgba(127, 8, 220, 0.57);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    height: 40px;
+}
+
+.button-text {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.pass {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.5px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    width: 80%;
+}
+
+.cpy {
+    background: rgba(229, 211, 243, 0.582);
+    border: 0.5px solid rgba(127, 8, 220, 0.57);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 9px;
+    margin-left: 5px;
+    height: 35px;
+}
+
+footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+/* ---------- Mobile view ----------*/
+
+@media(max-width: 576px){
+    .but {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .cpy {
+        margin-top: 15px;
+        margin-left: 65%;
+    }
+
+    #passw {
+        margin-left: 20px;
+    }
+
+    .num {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .opt {
+        padding-top: 12px;
+    }
+
+    #social-icons::before{
+        content: "\a";
+        white-space: pre;
+    }
+}
