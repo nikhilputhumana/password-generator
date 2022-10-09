@@ -4,6 +4,7 @@ This is website that can be used for generating random passwords. The UI of the 
 
 You may view the website by clicking [here](https://nikhilputhumana.github.io/password-generator/)
 
+### Sample view
 ![Screenshot of the page](https://github.com/nikhilputhumana/password-generator/blob/main/images/password-generator.png)
 
 ## How to create passwords
