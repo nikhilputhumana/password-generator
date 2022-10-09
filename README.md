@@ -7,7 +7,7 @@ You may view the website by clicking [here](https://nikhilputhumana.github.io/pa
 ### Sample view
 ![Screenshot of the page](https://github.com/nikhilputhumana/password-generator/blob/main/images/password-generator.png)
 
-## How to create passwords
+## How to generate passwords
 
 * Enter the length of password.
 * Select the checkboxes to define what all should be present in the password.
