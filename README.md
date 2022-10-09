@@ -1,6 +1,6 @@
 # Password Generator
 
-This is website that can be used for generating random passwords. The contents of the password (like whether we need letters, numbers or special characters) and the password length can be customized by the user. The UI of the website is designed based on the design concept of [Glassmorphism](https://www.freecodecamp.org/news/glassmorphism-how-to-create-a-glass-card-in-figma/).
+This is website that can be used for generating random passwords. The UI of the website is designed based on the design concept of [Glassmorphism](https://www.freecodecamp.org/news/glassmorphism-how-to-create-a-glass-card-in-figma/).
 
 You may view the website by clicking [here](https://nikhilputhumana.github.io/password-generator/)
 
